@@ -84,6 +84,7 @@ body {
   left: 0;
   top: 0;
   height: 100vh;
+  height: 100dvh;
   width: 100vw;
   display: flex;
   flex-grow: 1;
@@ -142,7 +143,9 @@ body {
   position: relative;
   display: block;
   margin-top: 100vh;
+  margin-top: 100dvh;
   min-height: 100vh;
+  min-height: 100dvh;
   background-color: #f6efe4;
   width: 100vw;
   position: relative;
@@ -302,7 +305,6 @@ section h3 {
 }
 
 .judo_desc {
-  font-size: 1.8rem;
   font-family: "Handlee", cursive;
   display: flex;
   flex-direction: column;
@@ -312,6 +314,21 @@ section h3 {
 .about h3,
 h4 {
   font-weight: 600;
+}
+
+.about h3 {
+  font-size: 2.8rem;
+  line-height: 6rem;
+}
+
+.about h4 {
+  font-size: 2.2rem;
+  line-height: 3.4rem;
+}
+
+.judo_desc p {
+  font-size: 2rem;
+  line-height: 3.4rem;
 }
 
 /* nav */
